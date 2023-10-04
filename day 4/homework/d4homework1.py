@@ -1,0 +1,5 @@
+age = int(input("age of the costumer: "))
+move1 = (age * 7 / 3)
+move2 = (4 * 9)
+move3 = (move1 + move2)
+print(move3)
