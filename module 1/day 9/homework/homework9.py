@@ -7,6 +7,8 @@ a_counter=0
 i_counter=0
 for element in g4_members:
     for char in element:
-        a_counter+=1
-        i_counter+=1
-        print(a_counter+i_counter)
+        if char == "a":
+            a_counter+=1
+        elif char == "i":
+            i_counter+=1
+print(a_counter+i_counter)

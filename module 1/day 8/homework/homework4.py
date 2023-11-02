@@ -11,4 +11,3 @@ prize=100    #prizi 1 momxmarebelze
 print(members*prize) 
 #10 bavshvze 1000
 #15 bavshvze 1500
-#2006 bavshvze

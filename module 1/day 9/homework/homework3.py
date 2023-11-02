@@ -10,4 +10,4 @@ for element in name1,name2:
     for char in element:
         if char=="a":
             a_counter += 1
-            print(a_counter)
+print(a_counter)
