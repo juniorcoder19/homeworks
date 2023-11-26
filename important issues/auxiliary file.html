@@ -1,0 +1,72 @@
+                <!-- FORMS -->
+        
+<!-- You can use forms to let your visitors:
+        - get in contact with you
+        - send orders, requests and other information
+        - create an account or register    
+        - and much more -->
+
+        <!-- FORM-ის ტიპები -->
+<form>
+    <input type="text">  <!--ტექსტის შესაყვანი ველი-->
+    <input type="radio">  <!--მოსანიშნი ღილაკი (მრგვალი)-->
+    <input type="checkbox"> <!--მოსანიშნი ღილაკი (ოთკუთხედი)-->
+</form>
+
+
+
+                <!-- IMPORTANT -->
+
+<!-- შესაძლებელია label-ის დაკავშირება input ელემენტებთან for და id ატრიბუტების გამოყენებით. -->
+
+<!-- 
+    label: for  (<label for = "GOA"></label>)            for = "GOA"  (უნდა ჰქონდეს ერთნაირი მნიშვნელობა)
+    input: id   (<input type = "text"   id = "GOA")      id = "GOA"   (უნდა ჰქონდეს ერთნაირი მნიშვნელობა)
+-->
+
+ 
+
+
+
+             <!-- DROP-DOWN MENUS -->
+
+<!-- ჩამოსაშლელი მენიუს სტრუქტურა -->               
+    <select>
+        <option>Opt 1</option>
+        <option>Opt 2</option>
+        <option>Opt 3</option>
+        <option>Opt 4</option>
+    </select>
+
+<!-- ფორმის მონაცემების მონაცემთა ბაზაში გაგზავნისთვის საჭიროა name ატრიბუტი.-->
+    <form>
+        <select name="color">
+        <option>Red</option>
+        <option>Blue</option>
+        </select>
+    </form>
+
+<!-- Data will be sent when the form is submitted. You can control the data each option sends with the value attribute. -->
+    <select id="dropdown">
+        <option value="r">Red</option>
+        <option value="g">Green</option>
+        <option value="b">Blue</option>
+    </select>
+
+
+<!-- 
+        <label>: for  (<label for = "GOA"></label>)                     for = "GOA"  (უნდა ჰქონდეს ერთნაირი მნიშვნელობა)
+
+        <select>: id   (<select name = "academy"   id = "GOA">          id = "GOA"   (უნდა ჰქონდეს ერთნაირი მნიშვნელობა)
+            <option value = "GOA">GOA</option>
+            <option value = "OTHER">OTHER</option>
+        </select>)
+-->
+<!-- 
+    ⭐ the <select> tag is used to create a drop-down menu.
+            select - თეგი გამოიყენება ჩამოსაშლელი მენიუს შესაქმნელად.  (container tag)
+    ⭐ the <option> tag is used to give choices to the user.
+            option - თეგი აძლევს არჩევანს მომხმარებელს.  (container tag)
+    ⭐ you can use drop-down menus in forms, in combination with other input elements.
+            ჩამოსაშლელი მენიუები შეგვიძლია გამოვიყენოთ forms-ში სხვა Input ელემენტებთან ერთად.
+ -->
